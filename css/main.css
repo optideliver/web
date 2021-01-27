@@ -820,12 +820,12 @@ button.large,
 button.stroke,
 .button.stroke {
   background: transparent !important;
-  color: #a5a5a5 !important;
+  color: white !important;
 }
 
 button.stroke:hover,
 .button.stroke:hover {
-  border: 0.3rem solid #39b54a;
+  border: 0.3rem solid white;
   color: #39b54a;
 }
 
@@ -1490,6 +1490,12 @@ h1.intro-header::before {
 
 .home-content-left .button.stroke:hover,
 .home-content-left .button.stroke:focus {
+  background-color: white !important;
+  color: #000000 !important;
+}
+
+.app-formadores .button.stroke:hover,
+.app-formadores .button.stroke:focus {
   background-color: white !important;
   color: #000000 !important;
 }
