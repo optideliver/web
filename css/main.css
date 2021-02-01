@@ -780,9 +780,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #39b54a;
-  border-color: #39b54a;
-  color: #FFFFFF;
+  background-color: #f4bc33;
+  border-color: #f4bc33;
+  color: black;
 }
 
 .button.button-primary:hover,
@@ -1292,7 +1292,7 @@ h1.intro-header::before {
 
 #header-nav-wrap .header-main-nav li a,
 #header-nav-wrap .header-main-nav li a:visited {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 #header-nav-wrap .header-main-nav li a:hover,
@@ -1301,7 +1301,7 @@ h1.intro-header::before {
 }
 
 #header-nav-wrap .header-main-nav li.current a {
-  color: #ffffff;
+  color: #f4bc33;
 }
 
 #header-nav-wrap .cta {
@@ -1340,12 +1340,12 @@ h1.intro-header::before {
     right: auto;
     left: 0;
     background-color: #111111;
-    padding: 120px 40px 54px;
+    padding: 80px 40px 45px;
   }
   #header-nav-wrap .header-main-nav {
     display: block;
     height: auto;
-    margin: 0 0 4.2rem 0;
+    margin: 0 0 2rem 0;
     border-top: 1px solid rgba(255, 255, 255, 0.03);
   }
   #header-nav-wrap .header-main-nav li {
