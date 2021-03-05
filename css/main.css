@@ -1846,7 +1846,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-intro {
-  padding-bottom: 3.6rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 }
 
@@ -2483,19 +2482,19 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #download {
-  background: #39b54a;
+  background: #ffffff;
   color: #b2fabc;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-top:6rem;
+  padding-bottom: 6rem;
   text-align: center;
 }
 
 #download h1 {
-  color: #ffffff;
+  color: black;
 }
 
 #download h1::before {
-  background-color: #2a9038;
+  background-color: #f4bc33;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -2503,12 +2502,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #download .lead {
-  color: #b2fabc;
+  color: rgb(131, 131, 131);
   margin-top: 4.8rem;
 }
 
 #download .row {
-  max-width: 800px;
+  max-width: 1000px;
+  text-align: center;
 }
 
 #download .download-badges {
@@ -2541,6 +2541,22 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #download .download-badges li a.badge-googleplay {
   background-image: url("../images/google-play.png");
+}
+
+#download .buttons {
+  padding-top: 6rem;
+}
+
+#download .button-primary:hover,
+#download .button-primary:focus {
+  background-color: black;
+    border-color: black;
+    color: #f4bc33;
+}
+
+#download .video {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 
