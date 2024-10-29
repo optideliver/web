@@ -227,7 +227,7 @@
 
   function downloadAppQA() {
     const pwd = prompt("Introduce la CLAVE de descarga: ", "");
-    if (pwd !== "appformadores") {
+    if (pwd !== "optipilotos") {
       alert("¡PIN Incorrecto!");
       return false;
     }
